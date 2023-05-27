@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Default';
+    font-style: unset;
+    font-weight: unset;
+}
+a{
+    text-decoration: none!important;
+    color: unset!important;
+}
+
+:root {
+    --primary: #9C254D;
+    --secondary: #F6F6F6;
+    --third:#DFDFDE;
+    --button-color: #2A3990;
+    --button-hover:#243179;
+    --grad1: #D23369;
+    --grad2: #F06292;
+    --text1: #FFFFFF;
+    --text2: rgb(27, 25, 25);
+}
+
+@font-face {
+    font-family: 'Default';
+
+    src:
+        url(../../lib/googlefont/font/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf),
+        url(../../lib/googlefont/font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-Black.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-BlackItalic.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-Bold.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-BoldItalic.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-ExtraBold.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-ExtraBoldItalic.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-ExtraLight.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-ExtraLightItalic.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-Italic.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-Light.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-Medium.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-MediumItalic.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-Regular.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-SemiBold.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-SemiBoldItalic.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-Thin.ttf),
+        url(../../lib/googlefont/font/Poppins/Poppins-ThinItalic.ttf);
+    src: url(../../lib/googlefont/font/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+
+
+h1 {
+    font-size: 64px;
+    color: unset;
+}
+
+h2 {
+    color: unset;
+    font-size: 32px;
+}
