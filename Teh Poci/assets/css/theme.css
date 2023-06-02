@@ -1,0 +1,77 @@
+html{
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Default';
+    font-style: unset;
+    font-weight: unset;
+    color: var(--font-color1);
+}
+a{
+    text-decoration: none!important;
+    color: unset!important;
+}
+:root{
+    --main-color : #FEC337;
+    --second-color:#E7A814;
+    --third-color:#00A4DC;
+    --third-color-hov:#0396c7;
+    --font-color1:#FFFFFF;
+    --add-color1:#E21B2A;
+    --add-color2:#B2D135;
+    --btn-color:#096D42;
+}
+
+@font-face {
+    font-family: 'Default';
+    src:
+        url(../font/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf),
+        url(../font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf),
+        url(../font/Poppins/Poppins-Black.ttf),
+        url(../font/Poppins/Poppins-BlackItalic.ttf),
+        url(../font/Poppins/Poppins-Bold.ttf),
+        url(../font/Poppins/Poppins-BoldItalic.ttf),
+        url(../font/Poppins/Poppins-ExtraBold.ttf),
+        url(../font/Poppins/Poppins-ExtraBoldItalic.ttf),
+        url(../font/Poppins/Poppins-ExtraLight.ttf),
+        url(../font/Poppins/Poppins-ExtraLightItalic.ttf),
+        url(../font/Poppins/Poppins-Italic.ttf),
+        url(../font/Poppins/Poppins-Light.ttf),
+        url(../font/Poppins/Poppins-Medium.ttf),
+        url(../font/Poppins/Poppins-MediumItalic.ttf),
+        url(../font/Poppins/Poppins-Regular.ttf),
+        url(../font/Poppins/Poppins-SemiBold.ttf),
+        url(../font/Poppins/Poppins-SemiBoldItalic.ttf),
+        url(../font/Poppins/Poppins-Thin.ttf),
+        url(../font/Poppins/Poppins-ThinItalic.ttf);
+    src: url(../font/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.btn{
+    
+    border: none;
+    color: var(--font-color1);
+    background-color: var(--third-color);
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: inset 0 0 0 0 var(--third-color-hov);
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.btn:hover{
+    color: unset;
+}
+.btn:hover{
+    color: unset!important;
+    box-shadow: inset 400px 0 0 0 var(--third-color-hov);
+    font-size:17px;
+}

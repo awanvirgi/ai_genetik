@@ -1,0 +1,110 @@
+@import url('theme.css');
+.main-wrap{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-list{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-list{
+    border: solid white;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+label img{
+    object-fit: fill;
+}
+input[type="radio"]{
+    position: absolute;
+    left: -9999999999px;
+}
+input[type="radio"]:checked+label{
+    background-color:var(--font-color1);
+    height: 100px;
+    width: 100px;
+    transition: .3s all;
+}
+input[type="radio"]:checked+label>img{
+    transform: scale(1.5);
+}
+input[type="radio"]+label{
+    padding: 1rem;
+}
+
+.main-content{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.mc-left{
+    width: 30%;
+    text-align: left;
+}
+.mc-right{
+    width: 30%;
+    text-align: right;
+}
+.mc-center{
+    padding: 3rem;
+}
+.main-content2{
+    padding: 4rem;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+}
+.mc2-content{
+    /* border: solid red 3px; */
+    display: flex;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+.sub-box{
+    height: 430px;
+    width: 320px;
+    /* text-align: center; */
+    border-radius: 10px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sub-box:hover{
+    transform: scale(1.1);
+    transition: transform ease-in-out .1s;
+}
+
+.sub-box h3{
+    text-align: center;
+}
+.box1{
+    background-color:var(--add-color2);
+}
+.box2{
+    background-color: var(--third-color);
+}
+.box3{
+    background-color: var(--add-color1);
+}

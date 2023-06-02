@@ -1,0 +1,32 @@
+@import url('theme.css');
+
+.footer-wrap{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.f-left,.f-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formbox{
+    background-color: var(--font-color1);
+    padding: 2rem;
+    border-radius: 10px;
+}
+.input-wrap{
+    width: 400px;
+    margin-bottom:1rem ;
+}
+select option{
+    color: black;
+}
+.fr-wrap{
+    width: 600px;
+    text-align: end;
+}

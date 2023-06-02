@@ -1,0 +1,23 @@
+@import url('theme.css');
+@import url('index-h.css');
+@import url('index-m.css');
+@import url('index-f.css');
+
+header,main,footer{
+    height: 100vh;
+}
+.bg-web{
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    /* border: solid red; */
+    overflow: hidden;
+    /* display: flex; */
+}
+.bg-web img{
+    object-fit: fill;
+    object-position:center;
+    height: 100%;
+    /* width: 100%; */
+    /* border: solid red; */
+}
