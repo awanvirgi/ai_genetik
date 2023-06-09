@@ -6,18 +6,19 @@
 header,main,footer{
     height: 100vh;
 }
-.bg-web{
-    position: absolute;
-    z-index: -1;
-    height: 100%;
-    /* border: solid red; */
-    overflow: hidden;
-    /* display: flex; */
+
+.main-wrap{
+    background-image: url('../img/bg/bg-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.bg-web img{
-    object-fit: fill;
-    object-position:center;
-    height: 100%;
-    /* width: 100%; */
-    /* border: solid red; */
+.main-content2{
+    background-image: url('../img/bg/bg-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-wrap{
+    background-image: url('../img/bg/bg-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

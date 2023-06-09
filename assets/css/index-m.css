@@ -10,11 +10,12 @@
 }
 .main-list{
     display: flex;
+    height: 7rem;
     gap: 1rem;
     justify-content: center;
     align-items: center;
+    /* border: solid red */
 }
-
 .box-list{
     border: solid white;
     height: 90px;
